@@ -17,6 +17,7 @@
     "canvas": "^1.6.11",
     "weather-js": "^2.0.0",
     "jimp": "^0.2.28",
-    "superagent": "^3.8.3"
+    "superagent": "^3.8.3",
+    "isgd": "^1.1.3"
   }
 }
