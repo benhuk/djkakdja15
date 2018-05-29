@@ -31,7 +31,7 @@ module.exports.run = async (bot, message, args) => {
     if (!mutetime) return message.reply("Use: +mute <tempo> <@user>.");
 
     await (tomute.addRole(muterole.id));
-    message.reply(`<@${tomute.id}> foi mutado por: ${ms(ms(mutetime))}`);
+    message.reply(`<@${tomute.id}> foi mutado por:${ms(ms(mutetime))}`);
 
     setTimeout(function() {
         tomute.removeRole(muterole.id);
